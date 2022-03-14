@@ -34,14 +34,14 @@ namespace gamePDD
             if (type == "admin")
             {
                 this.Hide();
-                Form_Registraton reg = new Form_Registraton();
-                reg.Show();
+                Form_Menu menu = new Form_Menu();
+                menu.Show();
             }
             else if (type == "user")
             {
                 this.Hide();
-                Form_Menu menu = new Form_Menu();
-                menu.Show();
+                Form_usergame usergame = new Form_usergame();
+                usergame.Show();
             }
             else
             {

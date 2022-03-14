@@ -187,8 +187,7 @@ namespace gamePDD
             this.textBox4.Name = "textBox4";
             this.textBox4.PasswordChar = '*';
             this.textBox4.Size = new System.Drawing.Size(212, 23);
-            this.textBox4.TabIndex = 21;
-            this.textBox4.UseSystemPasswordChar = true;
+            this.textBox4.TabIndex = 5;
             // 
             // Form_Registraton
             // 
