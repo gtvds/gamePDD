@@ -102,9 +102,9 @@ namespace gamePDD
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(159, 284);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 15);
+            this.label5.Size = new System.Drawing.Size(33, 15);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Ваш пол:";
+            this.label5.Text = "Пол:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label7
@@ -153,7 +153,7 @@ namespace gamePDD
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(159, 384);
+            this.button1.Location = new System.Drawing.Point(184, 384);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(187, 51);
             this.button1.TabIndex = 17;
@@ -163,7 +163,7 @@ namespace gamePDD
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(453, 384);
+            this.button2.Location = new System.Drawing.Point(435, 384);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(187, 51);
             this.button2.TabIndex = 18;
@@ -174,7 +174,8 @@ namespace gamePDD
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(517, 147);
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label10.Location = new System.Drawing.Point(784, 525);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(29, 15);
             this.label10.TabIndex = 20;
@@ -213,7 +214,6 @@ namespace gamePDD
             this.Controls.Add(this.label1);
             this.Name = "Form_Registraton";
             this.Text = "Регистрация";
-            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

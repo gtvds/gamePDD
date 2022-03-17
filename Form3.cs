@@ -40,17 +40,6 @@ namespace gamePDD
             Form_Autorize autorize = new Form_Autorize();
             autorize.Show();
         }
-
-        private async Task button1_ClickAsync(object sender, EventArgs e)
-        {
-           
-        }
-
-        private async void Form3_Load(object sender, EventArgs e)
-        {
-           
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection cn = new SqlConnection(@"Data Source=GTVDS-PC\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");

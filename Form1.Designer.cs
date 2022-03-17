@@ -31,7 +31,6 @@ namespace gamePDD
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Menu));
-            this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
@@ -40,12 +39,6 @@ namespace gamePDD
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
-            // 
-            // metroProgressBar1
-            // 
-            resources.ApplyResources(this.metroProgressBar1, "metroProgressBar1");
-            this.metroProgressBar1.Name = "metroProgressBar1";
-            this.metroProgressBar1.Value = 56;
             // 
             // metroButton1
             // 
@@ -96,7 +89,6 @@ namespace gamePDD
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroProgressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form_Menu";
             this.ResumeLayout(false);
@@ -104,8 +96,6 @@ namespace gamePDD
         }
 
         #endregion
-
-        private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton3;

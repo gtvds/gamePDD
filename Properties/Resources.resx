@@ -117,4 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="поехали" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\поехали.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="тест 1 тдтдт" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\тест 1 тдтдт.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фон с осветлением для удобочитаемости" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фон с осветлением для удобочитаемости.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="верный ответ девочка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\верный ответ девочка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка _далее_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка _далее_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка далее.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ты готов" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ты готов.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Начало теста. парниша" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Начало теста. парниша.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка посмотреть баллы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка посмотреть баллы.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
