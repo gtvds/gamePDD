@@ -17,7 +17,7 @@ namespace gamePDD
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form7_Autorize());
+            Application.Run(new Start());
         }
     }
 }
