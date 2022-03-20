@@ -170,7 +170,6 @@ namespace gamePDD
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 17;
             this.label1.Text = "label1";
-            this.label1.Visible = false;
             // 
             // Form_lvl_1
             // 

@@ -11,8 +11,10 @@ using System.Windows.Forms;
 
 namespace gamePDD
 {
+    
     public partial class Form_ThemePDD : System.Windows.Forms.Form
     {
+        int levelTh = 0;
         public Form_ThemePDD()
         {
             InitializeComponent();
@@ -72,7 +74,34 @@ namespace gamePDD
 
         private void Form_ThemePDD_Load(object sender, EventArgs e)
         {
-            
+            switch (levelTh)
+            {
+                case 1:
+                    pictureBox2.BackColor = System.Drawing.Color.Transparent;
+                    pictureBox2.BackgroundImage = global::gamePDD.Properties.Resources.Ресурс_49;
+                    pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+                    pictureBox2.Location = new System.Drawing.Point(268, 82);
+                    pictureBox2.Name = "pictureBox2";
+                    pictureBox2.Size = new System.Drawing.Size(690, 147);
+                    pictureBox2.TabIndex = 1;
+                    pictureBox2.TabStop = false;
+                    break;
+                case 2:
+                    Console.WriteLine("case 3");
+                    break;
+                case 3:
+                    Console.WriteLine("case 5");
+                    break;
+                case 4:
+                    Console.WriteLine("case 5");
+                    break;
+                case 5:
+                    Console.WriteLine("case 5");
+                    break;
+                default:
+                    Console.WriteLine("default");
+                    break;
+            }
+            }
         }
-    }
 }
