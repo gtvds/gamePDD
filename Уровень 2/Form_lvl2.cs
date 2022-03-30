@@ -54,12 +54,17 @@ namespace gamePDD.Уровень_2
         }
         private void button3_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
+            button5.Enabled = false;
             InsertDB(lvlqsts.FirstOrDefault(lvl => lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox4.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
             lvl++;
             level++;
             switch (lvl)
@@ -118,6 +123,7 @@ namespace gamePDD.Уровень_2
                     button3.Size = new System.Drawing.Size(437, 75);
                     button3.TabIndex = 5;
                     button3.UseVisualStyleBackColor = true;
+
                     // ответ 2
                     button4.BackgroundImage = global::gamePDD.Properties.Resources.Ресурс_76;
                     button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -465,6 +471,7 @@ namespace gamePDD.Уровень_2
                     ft.Show();
                     break;
             }
+
         }
         private void Form_lvl_1_Load(object sender, EventArgs e)
         {
@@ -473,11 +480,15 @@ namespace gamePDD.Уровень_2
 
         private void button4_Click(object sender, EventArgs e)
         {
+            button3.Enabled = false;
+            button5.Enabled = false;
             InsertDB(lvlqsts.FirstOrDefault(lvl => !lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox5.Show();
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
+            button3.Enabled = false;
             InsertDB(lvlqsts.LastOrDefault(lvl => !lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox5.Show();
         }
@@ -499,6 +510,13 @@ namespace gamePDD.Уровень_2
             {
                 label1.Text = rd[0].ToString();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Report fr = new Report(this);
+            fr.Show();
         }
     }
 }

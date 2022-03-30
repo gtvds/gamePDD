@@ -139,17 +139,20 @@
   <data name="Ресурс 147" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 147.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ресурс 108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ресурс 128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ресурс 129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 47" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ресурс 112" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 133" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,11 +196,11 @@
   <data name="Ресурс 921" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 921.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 144" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="конец теста ребята без фона" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\конец теста ребята без фона.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 62" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,8 +235,14 @@
   <data name="Ур2 вопр3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ур2 вопр31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ресурс 98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ресурс 19" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ресурс 251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 58" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,8 +259,8 @@
   <data name="Ресурс 92" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 92.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 98" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 67" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -261,6 +270,9 @@
   </data>
   <data name="sensei_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sensei-medium.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ресурс 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 17" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,6 +295,9 @@
   <data name="Ресурс 104" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ресурс 43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ресурс 1561" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 1561.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -301,11 +316,17 @@
   <data name="Начало теста. парниша" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Начало теста. парниша.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ресурс 40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ресурс 117" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 117.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ресурс 76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 88" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,20 +355,14 @@
   <data name="Ресурс 127" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ресурс 51" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 89" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ресурс 146" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 78" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 78.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -376,14 +391,8 @@
   <data name="Ресурс 22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 79" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ресурс 105" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ресурс 121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 66" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -403,8 +412,8 @@
   <data name="Ресурс 118" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 118.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 89.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 107" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -417,9 +426,6 @@
   </data>
   <data name="Ресурс 35" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ресурс 57" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 171" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -448,9 +454,6 @@
   <data name="Ресурс 36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 86" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Ресурс 1511" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 1511.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -469,8 +472,8 @@
   <data name="Ресурс 94" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 43" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 77" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 77.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -505,8 +508,8 @@
   <data name="Ресурс 75" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 142" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 46" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -544,14 +547,14 @@
   <data name="Ресурс 53" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 126" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 146.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="поехали" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\поехали.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 108" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 108.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 811" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 811.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -559,8 +562,8 @@
   <data name="Ресурс 149" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 15" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 112.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -568,17 +571,17 @@
   <data name="кнопка _далее_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\кнопка _далее_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 251" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 151" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 76" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 116" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -586,13 +589,13 @@
   <data name="Ресурс 24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ресурс 129" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ресурс 129.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 144.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ресурс 143" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ресурс 143.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="конец теста ребята без фона" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\конец теста ребята без фона.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ресурс 160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ресурс 160.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

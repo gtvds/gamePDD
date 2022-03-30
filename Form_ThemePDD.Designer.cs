@@ -88,6 +88,7 @@ namespace gamePDD
             this.button6.Size = new System.Drawing.Size(335, 66);
             this.button6.TabIndex = 10;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // button2
             // 

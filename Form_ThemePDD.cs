@@ -115,5 +115,12 @@ namespace gamePDD
         {
             Application.Exit();
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Report fr = new Report(this);
+            fr.Show();
+        }
     }
 }

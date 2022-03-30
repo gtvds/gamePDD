@@ -129,6 +129,7 @@ namespace gamePDD.Уровень_5
             this.button2.Size = new System.Drawing.Size(338, 66);
             this.button2.TabIndex = 43;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

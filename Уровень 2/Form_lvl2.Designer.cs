@@ -67,6 +67,7 @@ namespace gamePDD.Уровень_2
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 28;
             this.label1.Text = "label1";
+            this.label1.Visible = false;
             // 
             // button5
             // 
@@ -119,6 +120,7 @@ namespace gamePDD.Уровень_2
             this.button2.Size = new System.Drawing.Size(338, 66);
             this.button2.TabIndex = 21;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

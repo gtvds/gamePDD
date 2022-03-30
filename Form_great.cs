@@ -33,5 +33,12 @@ namespace gamePDD
             Form_ThemePDD tpdd = new Form_ThemePDD();
             tpdd.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Report fr = new Report(this);
+            fr.Show();
+        }
     }
 }

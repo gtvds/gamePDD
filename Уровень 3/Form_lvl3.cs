@@ -58,6 +58,9 @@ namespace gamePDD.Уровень_3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
             lvl++;
             level++;
             switch (lvl)
@@ -463,7 +466,8 @@ namespace gamePDD.Уровень_3
                     ft.Show();
                     break;
             }
-            }
+
+        }
         private void InsertDB(lvlqst lvlqsts)
         {
             SqlConnection cn2 = new SqlConnection(@"Data Source=GTVDS-PC\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
@@ -477,20 +481,33 @@ namespace gamePDD.Уровень_3
         }
         private void button3_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
+            button5.Enabled = false;
             InsertDB(lvlqsts.FirstOrDefault(lvl => lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox4.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            button3.Enabled = false;
+            button5.Enabled = false;
             InsertDB(lvlqsts.FirstOrDefault(lvl => !lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox5.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
+            button3.Enabled = false;
             InsertDB(lvlqsts.LastOrDefault(lvl => !lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox5.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Report fr = new Report(this);
+            fr.Show();
         }
     }
 }

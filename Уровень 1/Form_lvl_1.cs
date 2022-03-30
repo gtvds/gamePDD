@@ -58,12 +58,17 @@ namespace gamePDD
         }
         private void button3_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
+            button5.Enabled = false;
             InsertDB(lvlqsts.FirstOrDefault(lvl => lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox4.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
             lvl++;
             level++;
             switch (lvl)
@@ -403,6 +408,7 @@ namespace gamePDD
                     button1.Size = new System.Drawing.Size(202, 66);
                     button1.TabIndex = 3;
                     button1.UseVisualStyleBackColor = true;
+
                     // баллы
                     button2.BackgroundImage = global::gamePDD.Properties.Resources.кнопка_посмотреть_баллы;
                     button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -486,13 +492,24 @@ namespace gamePDD
 
         private void button4_Click(object sender, EventArgs e)
         {
+            button3.Enabled = false;
+            button5.Enabled = false;
             InsertDB(lvlqsts.FirstOrDefault(lvl => !lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox5.Show();
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            button4.Enabled = false;
+            button3.Enabled = false;
             InsertDB(lvlqsts.LastOrDefault(lvl => !lvl.Correct_question && lvl.Level.Equals(level)));
             pictureBox5.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Report fr = new Report(this);
+            fr.Show();
         }
     }
 }
