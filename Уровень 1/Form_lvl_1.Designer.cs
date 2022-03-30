@@ -97,10 +97,13 @@ namespace gamePDD
             // 
             this.button3.BackgroundImage = global::gamePDD.Properties.Resources.Ресурс_50;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(400, 254);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(437, 75);
             this.button3.TabIndex = 5;
+            this.button3.Text = "1";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -119,10 +122,13 @@ namespace gamePDD
             // 
             this.button4.BackgroundImage = global::gamePDD.Properties.Resources.Ресурс_51;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.SystemColors.Window;
             this.button4.Location = new System.Drawing.Point(400, 358);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(437, 75);
             this.button4.TabIndex = 13;
+            this.button4.Text = "11";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -130,12 +136,15 @@ namespace gamePDD
             // 
             this.button5.BackgroundImage = global::gamePDD.Properties.Resources.Ресурс_52;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button5.Location = new System.Drawing.Point(400, 465);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(437, 75);
             this.button5.TabIndex = 14;
+            this.button5.Text = "111";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox4
             // 
@@ -148,7 +157,6 @@ namespace gamePDD
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Visible = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 
@@ -170,6 +178,7 @@ namespace gamePDD
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 17;
             this.label1.Text = "label1";
+            this.label1.Visible = false;
             // 
             // Form_lvl_1
             // 
@@ -193,7 +202,7 @@ namespace gamePDD
             this.Name = "Form_lvl_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Уровень 1";
-            this.Load += new System.EventHandler(this.Form_lvl1_Load);
+            this.Load += new System.EventHandler(this.Form_lvl_1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

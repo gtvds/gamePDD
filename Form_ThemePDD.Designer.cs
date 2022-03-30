@@ -38,6 +38,7 @@ namespace gamePDD
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -151,6 +152,19 @@ namespace gamePDD
             this.textBox1.Visible = false;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // button7
+            // 
+            this.button7.BackgroundImage = global::gamePDD.Properties.Resources.Ресурс_1551;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(12, 574);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(202, 66);
+            this.button7.TabIndex = 46;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form_ThemePDD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -159,6 +173,7 @@ namespace gamePDD
             this.BackgroundImage = global::gamePDD.Properties.Resources.фон_с_осветлением_для_удобочитаемости;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1179, 652);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -171,6 +186,7 @@ namespace gamePDD
             this.Name = "Form_ThemePDD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Тема ПДД";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_ThemePDD_FormClosed);
             this.Load += new System.EventHandler(this.Form_ThemePDD_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -190,5 +206,6 @@ namespace gamePDD
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button7;
     }
 }

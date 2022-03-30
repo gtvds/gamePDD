@@ -37,6 +37,8 @@ namespace gamePDD
             this.Hide();
             Form_Transport f9 = new Form_Transport();
             f9.Show();
+            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -103,5 +105,15 @@ namespace gamePDD
                     break;
             }
             }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
+
+        private void Form_ThemePDD_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+    }
 }

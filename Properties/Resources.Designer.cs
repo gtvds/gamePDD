@@ -22,7 +22,7 @@ namespace gamePDD.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace gamePDD.Properties {
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("gamePDD.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace gamePDD.Properties {
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,9 +61,29 @@ namespace gamePDD.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        public static byte[] gooddog_regular {
+            get {
+                object obj = ResourceManager.GetObject("gooddog_regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Byte[].
+        /// </summary>
+        public static byte[] sensei_medium {
+            get {
+                object obj = ResourceManager.GetObject("sensei_medium", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap верный_ответ_девочка {
+        public static System.Drawing.Bitmap верный_ответ_девочка {
             get {
                 object obj = ResourceManager.GetObject("верный ответ девочка", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +93,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap кнопка__далее_ {
+        public static System.Drawing.Bitmap кнопка__далее_ {
             get {
                 object obj = ResourceManager.GetObject("кнопка _далее_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +103,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap кнопка_далее {
+        public static System.Drawing.Bitmap кнопка_далее {
             get {
                 object obj = ResourceManager.GetObject("кнопка далее", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +113,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap кнопка_посмотреть_баллы {
+        public static System.Drawing.Bitmap кнопка_посмотреть_баллы {
             get {
                 object obj = ResourceManager.GetObject("кнопка посмотреть баллы", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +123,17 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Лого_игры_ярлык {
+        public static System.Drawing.Bitmap конец_теста_ребята_без_фона {
+            get {
+                object obj = ResourceManager.GetObject("конец теста ребята без фона", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Лого_игры_ярлык {
             get {
                 object obj = ResourceManager.GetObject("Лого игры ярлык", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +143,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Начало_теста__парниша {
+        public static System.Drawing.Bitmap Начало_теста__парниша {
             get {
                 object obj = ResourceManager.GetObject("Начало теста. парниша", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +153,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap поехали {
+        public static System.Drawing.Bitmap поехали {
             get {
                 object obj = ResourceManager.GetObject("поехали", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +163,497 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_15 {
+        public static System.Drawing.Bitmap Ресурс_100 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_101 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 101", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_102 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 102", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_103 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 103", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_104 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 104", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_105 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 105", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_106 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 106", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_107 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 107", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_108 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 108", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_109 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 109", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_110 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 110", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_111 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_1111 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 1111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_112 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 112", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_113 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 113", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_114 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 114", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_115 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 115", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_116 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 116", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_117 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 117", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_118 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 118", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_119 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 119", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_120 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 120", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_121 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_122 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 122", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_123 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_124 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 124", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_125 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 125", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_126 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 126", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_127 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 127", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_128 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_129 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 129", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_130 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 130", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_131 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 131", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_132 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 132", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_133 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 133", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_134 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 134", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_135 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 135", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_136 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 136", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_137 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 137", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_138 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 138", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_139 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 139", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_142 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 142", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_143 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 143", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_144 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 144", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_145 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 145", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_146 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 146", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_147 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 147", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_148 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 148", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_149 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 149", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_15 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 15", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +663,17 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_151 {
+        public static System.Drawing.Bitmap Ресурс_150 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 150", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_151 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 151", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +683,87 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_16 {
+        public static System.Drawing.Bitmap Ресурс_1511 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 1511", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_152 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 152", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_153 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 153", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_1531 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 1531", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_155 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 155", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_1551 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 1551", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_156 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 156", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_1561 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 1561", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_16 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +773,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_17 {
+        public static System.Drawing.Bitmap Ресурс_17 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 17", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +783,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_171 {
+        public static System.Drawing.Bitmap Ресурс_171 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 171", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +793,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_19 {
+        public static System.Drawing.Bitmap Ресурс_19 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 19", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +803,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_20 {
+        public static System.Drawing.Bitmap Ресурс_20 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 20", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +813,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_21 {
+        public static System.Drawing.Bitmap Ресурс_21 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +823,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_22 {
+        public static System.Drawing.Bitmap Ресурс_22 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +833,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_23 {
+        public static System.Drawing.Bitmap Ресурс_23 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 23", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +843,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_231 {
+        public static System.Drawing.Bitmap Ресурс_231 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 231", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +853,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_24 {
+        public static System.Drawing.Bitmap Ресурс_24 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +863,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_241 {
+        public static System.Drawing.Bitmap Ресурс_241 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 241", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +873,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_25 {
+        public static System.Drawing.Bitmap Ресурс_25 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 25", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +883,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_251 {
+        public static System.Drawing.Bitmap Ресурс_251 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 251", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,7 +893,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_26 {
+        public static System.Drawing.Bitmap Ресурс_26 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 26", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -293,7 +903,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_27 {
+        public static System.Drawing.Bitmap Ресурс_27 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 27", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +913,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_3 {
+        public static System.Drawing.Bitmap Ресурс_3 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +923,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_34 {
+        public static System.Drawing.Bitmap Ресурс_34 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 34", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -323,7 +933,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_35 {
+        public static System.Drawing.Bitmap Ресурс_35 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 35", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -333,7 +943,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_36 {
+        public static System.Drawing.Bitmap Ресурс_36 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 36", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -343,7 +953,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_37 {
+        public static System.Drawing.Bitmap Ресурс_37 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 37", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +963,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_38 {
+        public static System.Drawing.Bitmap Ресурс_38 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 38", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -363,7 +973,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_381 {
+        public static System.Drawing.Bitmap Ресурс_381 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 381", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -373,7 +983,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_40 {
+        public static System.Drawing.Bitmap Ресурс_40 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 40", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -383,7 +993,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_41 {
+        public static System.Drawing.Bitmap Ресурс_41 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 41", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -393,7 +1003,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_42 {
+        public static System.Drawing.Bitmap Ресурс_42 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 42", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -403,7 +1013,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_43 {
+        public static System.Drawing.Bitmap Ресурс_43 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 43", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -413,7 +1023,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_44 {
+        public static System.Drawing.Bitmap Ресурс_44 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 44", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -423,7 +1033,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_45 {
+        public static System.Drawing.Bitmap Ресурс_45 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 45", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -433,7 +1043,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_46 {
+        public static System.Drawing.Bitmap Ресурс_46 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 46", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -443,7 +1053,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_47 {
+        public static System.Drawing.Bitmap Ресурс_47 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 47", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -453,7 +1063,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_471 {
+        public static System.Drawing.Bitmap Ресурс_471 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 471", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -463,7 +1073,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_49 {
+        public static System.Drawing.Bitmap Ресурс_49 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 49", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -473,7 +1083,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_50 {
+        public static System.Drawing.Bitmap Ресурс_50 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -483,7 +1093,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_51 {
+        public static System.Drawing.Bitmap Ресурс_51 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -493,7 +1103,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_52 {
+        public static System.Drawing.Bitmap Ресурс_52 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 52", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -503,7 +1113,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_53 {
+        public static System.Drawing.Bitmap Ресурс_53 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 53", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -513,7 +1123,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_54 {
+        public static System.Drawing.Bitmap Ресурс_54 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 54", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -523,7 +1133,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_55 {
+        public static System.Drawing.Bitmap Ресурс_55 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 55", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -533,7 +1143,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_56 {
+        public static System.Drawing.Bitmap Ресурс_56 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 56", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -543,7 +1153,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_57 {
+        public static System.Drawing.Bitmap Ресурс_57 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 57", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -553,7 +1163,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_58 {
+        public static System.Drawing.Bitmap Ресурс_58 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 58", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -563,7 +1173,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_6 {
+        public static System.Drawing.Bitmap Ресурс_6 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -573,7 +1183,7 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_60 {
+        public static System.Drawing.Bitmap Ресурс_60 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 60", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -583,7 +1193,17 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_62 {
+        public static System.Drawing.Bitmap Ресурс_61 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_62 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 62", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -593,7 +1213,87 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_7 {
+        public static System.Drawing.Bitmap Ресурс_63 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 63", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_631 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 631", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_632 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 632", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_65 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 65", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_66 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 66", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_67 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 67", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_68 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 68", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_69 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 69", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_7 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -603,7 +1303,87 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_8 {
+        public static System.Drawing.Bitmap Ресурс_70 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 70", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_71 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_75 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 75", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_751 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 751", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_76 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 76", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_77 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 77", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_78 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 78", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_79 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 79", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_8 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -613,7 +1393,17 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_81 {
+        public static System.Drawing.Bitmap Ресурс_80 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 80", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_81 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 81", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -623,7 +1413,67 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ресурс_9 {
+        public static System.Drawing.Bitmap Ресурс_811 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 811", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_85 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 85", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_86 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 86", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_88 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 88", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_89 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 89", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_891 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 891", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_9 {
             get {
                 object obj = ResourceManager.GetObject("Ресурс 9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -633,7 +1483,117 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ты_готов {
+        public static System.Drawing.Bitmap Ресурс_90 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 90", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_91 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_92 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 92", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_921 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 921", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_93 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 93", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_94 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 94", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_95 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 95", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_96 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_97 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 97", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_98 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 98", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ресурс_99 {
+            get {
+                object obj = ResourceManager.GetObject("Ресурс 99", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ты_готов {
             get {
                 object obj = ResourceManager.GetObject("Ты готов", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -643,7 +1603,47 @@ namespace gamePDD.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap фон_с_осветлением_для_удобочитаемости {
+        public static System.Drawing.Bitmap Ур2_вопр2 {
+            get {
+                object obj = ResourceManager.GetObject("Ур2 вопр2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ур2_вопр3 {
+            get {
+                object obj = ResourceManager.GetObject("Ур2 вопр3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ур2_вопр4 {
+            get {
+                object obj = ResourceManager.GetObject("Ур2 вопр4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Ур2_вопр5 {
+            get {
+                object obj = ResourceManager.GetObject("Ур2 вопр5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap фон_с_осветлением_для_удобочитаемости {
             get {
                 object obj = ResourceManager.GetObject("фон с осветлением для удобочитаемости", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));

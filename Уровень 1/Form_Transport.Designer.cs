@@ -108,6 +108,7 @@ namespace gamePDD
             this.label1.TabIndex = 19;
             this.label1.Text = "label1";
             this.label1.Visible = false;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form_Transport
             // 

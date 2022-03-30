@@ -58,5 +58,10 @@ namespace gamePDD
                 label1.Text = rd[0].ToString();
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -13,6 +13,7 @@ namespace gamePDD
     public partial class Start : Form
     {
         public Start()
+        
         {
             InitializeComponent();
         }
@@ -22,6 +23,7 @@ namespace gamePDD
             this.Hide();
             Form_Authorize fa = new Form_Authorize();
             fa.Show();
+
         }
     }
 }
