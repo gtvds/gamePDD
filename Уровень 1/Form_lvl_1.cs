@@ -47,7 +47,7 @@ namespace gamePDD
         }
         private void InsertDB(lvlqst lvlqsts)
         {
-            SqlConnection cn2 = new SqlConnection(@"Data Source=GTVDS-PC\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
+            SqlConnection cn2 = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
             cn2.Open();
             SqlCommand command2 = new SqlCommand("INSERT INTO [Questions] VALUES(@Answer_questions, @Correct_question, @id_test) ", cn2);
             command2.Parameters.AddWithValue("@Answer_questions", lvlqsts.Answer_quest);
@@ -479,7 +479,7 @@ namespace gamePDD
         private void Form_lvl_1_Load(object sender, EventArgs e)
         {
             String insertCmd = "SELECT MAX(id_test) FROM Tests WHERE Name_test = 'Транспорт'";
-            SqlConnection myConnection = new SqlConnection("Data Source=GTVDS-PC\\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
+            SqlConnection myConnection = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
             SqlCommand myCommand = new SqlCommand(insertCmd.ToString(), myConnection);
             myConnection.Open();
             SqlDataReader rd;

@@ -42,7 +42,7 @@ namespace gamePDD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection(@"Data Source=GTVDS-PC\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
+            SqlConnection cn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
             cn.Open();
             
             if (textBox1.TextLength == 0)

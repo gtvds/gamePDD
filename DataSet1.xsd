@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection ConnectionStringObject="Data Source=GTVDS-PC\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="GamePDDConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+          <Connection ConnectionStringObject="Data Source=localhost\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="GamePDDConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="QuestionsTableAdapter" GeneratorDataComponentClassName="QuestionsTableAdapter" Name="Questions" UserDataComponentName="QuestionsTableAdapter">

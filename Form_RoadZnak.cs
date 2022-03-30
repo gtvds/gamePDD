@@ -33,7 +33,7 @@ namespace gamePDD
 
         private void button8_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection(@"Data Source=GTVDS-PC\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
+            SqlConnection cn = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
             cn.Open();
             SqlCommand command1 = new SqlCommand("INSERT INTO [Tests] VALUES (@Name_test, @id_user)", cn);
             command1.Parameters.AddWithValue("@Name_test", "Дорожные знаки");
@@ -47,7 +47,7 @@ namespace gamePDD
         private void Form_RoadZnak_Load(object sender, EventArgs e)
         {
             String insertCmd = "SELECT MAX(id_user) FROM Users";
-            SqlConnection myConnection = new SqlConnection("Data Source=GTVDS-PC\\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
+            SqlConnection myConnection = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog = GamePDD; Integrated Security = True");
             SqlCommand myCommand = new SqlCommand(insertCmd.ToString(), myConnection);
             myConnection.Open();
             SqlDataReader rd;

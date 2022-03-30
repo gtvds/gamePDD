@@ -2266,7 +2266,8 @@ SELECT id_question, Name_question, id_test FROM Questions WHERE (id_question = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = "Data Source=GTVDS-PC\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True";
+            this._connection.ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True" +
+                "";
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2624,7 +2625,8 @@ SELECT id_report, Answer_questions, Correct_question FROM Reports WHERE (id_repo
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = "Data Source=GTVDS-PC\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True";
+            this._connection.ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True" +
+                "";
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2985,7 +2987,8 @@ SELECT id_test, Name_test, id_report FROM Tests WHERE (id_test = @id_test)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = "Data Source=GTVDS-PC\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True";
+            this._connection.ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True" +
+                "";
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3344,7 +3347,8 @@ SELECT id_user, Name, id_report FROM Users WHERE (id_user = @id_user)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = "Data Source=GTVDS-PC\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True";
+            this._connection.ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=GamePDD;Integrated Security=True" +
+                "";
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
